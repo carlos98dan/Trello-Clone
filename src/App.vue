@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import BoardComp from '@/components/BoardComp.vue'
+import BoardComp from '@/components/board/BoardComp.vue'
 </script>
 
 <template>

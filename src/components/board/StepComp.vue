@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h3>Board</h3>
+  <h4>Step</h4>
 </template>
