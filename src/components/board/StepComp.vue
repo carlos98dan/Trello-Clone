@@ -11,8 +11,8 @@ const props = defineProps<{
   <h4>{{ props.step.title }}</h4>
   <ul>
     <li v-for="(item, index) in props.step.tasks" :key="index">
-      <b>item.title</b>
-      <p>item.description</p>
+      <b>{{ item.task }}</b>
+      <p>{{ item.description }}</p>
     </li>
   </ul>
 </template>
