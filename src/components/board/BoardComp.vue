@@ -40,6 +40,17 @@ const steps: Step[] = [
 </script>
 
 <template>
-  <h3>Board</h3>
-  <StepComp v-for="(item, index) in steps" :key="index" :step="item" />
+  <section class="board">
+    <h3 class="board__title">Board</h3>
+    <article class="board__step-list">
+      <StepComp class="board__step-item" v-for="(item, index) in steps" :key="index" :step="item" />
+    </article>
+  </section>
 </template>
+
+<style>
+.board__step-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+</style>
