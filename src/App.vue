@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BoardComp from '@/components/board/BoardComp.vue'
+</script>
 
 <template>
   <header>
@@ -7,5 +9,6 @@
 
   <main>
     <h2>Aqui va el tablero</h2>
+    <BoardComp />
   </main>
 </template>
